@@ -4,6 +4,14 @@
 
 This project performs a bias audit on a clinical dataset (Clinical Data_Discovery_Cohort.csv) to identify and mitigate potential biases in healthcare data. The notebook explores demographic distributions (gender, race, disease stage), evaluates fairness metrics, validates bias patterns using statistical tests, and applies bias mitigation techniques.
 
+## Group Memmbers
+
+- Nthabiseng Mkhehlani
+- Rivomba Ndhukwana
+- Nqobile Magwaza
+- Nkhensani Manganye
+- Nqobile Ngwenya
+
 ## Objectives
 
 - Analyze distributions of sex, race, and disease stage.
@@ -70,9 +78,12 @@ Performed Chi-squared tests for independence:
 
 1. Clone repository and open the notebook.
 2. Install dependencies:
-***
+```bash
+
    pip install pandas numpy matplotlib seaborn imbalanced-learn scipy
-***
+```
+
+
 
 3. Place Clinical Data_Discovery_Cohort.csv in the working directory.
 4. Run cells sequentially to reproduce analysis and visualizations.
